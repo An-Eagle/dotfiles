@@ -1,0 +1,1000 @@
+notify-send shoe -t 1000
+notify-send shoe -t 0
+notify-send shoe -t 1000
+notify-send shoe -t 5000
+notify-send shoe
+notify-send shoe -t 5000
+notify-send shoe -t 1000
+notify-send shoe
+distrobox enter ags
+app.ts 
+killall swaync
+vim .config/niri/config.kdl 
+cd git/
+git clone git@github.com:An-Eagle/astal-bar.git
+killall swaync
+cd git/astal
+cd
+cd git/astal-bar/
+ls
+git add .
+cd
+cd git/
+ls
+git clone git@github.com:An-Eagle/astal-bar.git
+cd astal-bar/
+ls
+git add .
+git commit -m "Initial commit for AGS v3, GTK4"
+git push
+cd git/astal-bar/
+git pull
+cd
+cd git/
+git clone git@github.com:An-Eagle/Shell.git
+git add .
+cd Shell/
+git commit -m "Initial commit for AGS v3, GTK4"
+git add .
+git commit -m "Initial commit for AGS v3, GTK4"
+git push
+git pull
+flatpak run com.vscodium.codium --install-extension vscjava.vscode-java-pack
+     
+flatpak install flathub org.freedesktop.Sdk.Extension.openjdk21
+flatpak install flathub org.freedesktop.Sdk.Extension.openjdk
+flatpak search flathub org.freedesktop.Sdk.Extension.openjdk
+flatpak search org.freedesktop.Sdk.Extension.openjdk
+flatpak install org.freedesktop.Sdk.Extension.openjdk
+flatpak override --user --env=JAVA_HOME=/usr/lib/sdk/openjdk21 com.vscodium.codium && flatpak override --user --env=PATH=/usr/lib/sdk/openjdk21/bin:/app/bin:/usr/bin com.vscodium.codium
+flatpak search adw-gtk3
+gsettings get org.gnome.desktop.interface gtk-theme 
+flatpak list
+cd git/niri-bluebuild/
+ls
+vim recipes/recipe.yml 
+cd git/niri-bluebuild/
+git add .
+git commit -m "update"
+git push
+git pull
+git push
+ags quit --help
+ags quit -i Bar
+ags --help
+ags list
+ags quit -i bar
+exit
+notify-send shoe
+killall ags
+distrobox enter ag
+distrobox enter ags
+app.ts 
+killall swaync
+app.ts 
+vim .config/ags/widget/popovers/quicksettings/Notifications.tsx 
+rpm-ostree update
+flatpak search bazaar
+systemctl reboot
+killall swaync
+vim .config/niri/config.kdl 
+cd git/niri-bluebuild/
+git pull
+vim recipes/recipe.yml 
+git add .
+git commit -m "remove wlogout"
+git push
+ping 1.1.1.1
+git push
+cat ~/.ssh/id_ed25519
+git pull
+git push
+ping github.com
+dig github.com
+ping 1.1.1.1
+ping github.com
+git pull
+git push
+cd
+cd git/Shell/
+git push
+cd
+cd git/niri-bluebuild/
+git fetch
+git pull
+ls -a
+git
+git ls-remote origin
+git fetch
+git pull
+git push
+rpm-ostree upgrade
+ping 1.1.1.1
+killall swaync
+ags quit -i bar
+exit
+killall swaync
+app.ts 
+vim .config/hypr/hyprlock.conf 
+vim .config/ags/widget/popovers/quicksettings/Notifications.tsx 
+vim .config/ags/style.scss 
+distrobox enter ag
+distrobox enter ags
+app.ts 
+vim .config/ags/style.scss 
+app.ts 
+vim .config/ags/style.scss 
+app.ts 
+vim .config/ags/style.scss 
+app.ts 
+vim .config/niri/config.kdl 
+killall swaync
+app.ts 
+pkill swaync
+killall swaync
+vim .config/niri/config.kdl 
+niri validate 
+swaync
+killall swaync
+vim .config/niri/config.kdl 
+app.ts 
+ping 1.1.1
+ping 1.1.1.1
+flatpak run io.github.ungoogled_software.ungoogled_chromium --enable-features=UseOzonePlatform --ozone-platform=wayland
+flatpak run io.github.ungoogled_software.ungoogled_chromium
+xeyes
+xlsclients
+xprop
+xprop -root | grep "_NET_CLIENT_LIST"
+brew install xeyes
+sudo chown -R nicolas /home/linuxbrew/.linuxbrew/bin /home/linuxbrew/.linuxbrew/etc /home/linuxbrew/.linuxbrew/etc/bash_completion.d /home/linuxbrew/.linuxbrew/include /home/linuxbrew/.linuxbrew/lib /home/linuxbrew/.linuxbrew/opt /home/linuxbrew/.linuxbrew/sbin /home/linuxbrew/.linuxbrew/share /home/linuxbrew/.linuxbrew/share/doc /home/linuxbrew/.linuxbrew/share/man /home/linuxbrew/.linuxbrew/share/man/man1 /home/linuxbrew/.linuxbrew/share/zsh /home/linuxbrew/.linuxbrew/share/zsh/site-functions
+chmod u+w /home/linuxbrew/.linuxbrew/bin /home/linuxbrew/.linuxbrew/etc /home/linuxbrew/.linuxbrew/etc/bash_completion.d /home/linuxbrew/.linuxbrew/include /home/linuxbrew/.linuxbrew/lib /home/linuxbrew/.linuxbrew/opt /home/linuxbrew/.linuxbrew/sbin /home/linuxbrew/.linuxbrew/share /home/linuxbrew/.linuxbrew/share/doc /home/linuxbrew/.linuxbrew/share/man /home/linuxbrew/.linuxbrew/share/man/man1 /home/linuxbrew/.linuxbrew/share/zsh /home/linuxbrew/.linuxbrew/share/zsh/site-functions
+brew install xeyes
+xeyes 
+vim ~/.var/app/io.github.ungoogled_software.ungoogled_chromium/config/chromium-flags.conf
+systemctl status systemd-coredump
+systemctl status systemd-coredump@
+systemctl status systemd-coredump.socket 
+vim .var/app/com.discordapp.Discord/config/discord-flags.conf
+ping 1.1.1.1
+flatpak update 
+ags quit -i bar
+app.ts 
+vim .var/app/com.discordapp.Discord/config/discord-flags.conf
+exit
+app.ts 
+vim .config/ags/widget/Bar.tsx 
+distrobox enter ags
+vim .config/ags/widget/Bar.tsx 
+app.ts 
+cd git/Shell/
+git add .
+git commit -m "Small tweaks to time"
+git push
+cd .config/ags/
+git pull
+ping 1.1.1
+ping 1.1.1.1
+sudo pacman -Syu
+yay -Syu
+yay --devel -Syu
+sudo reflector --verbose --latest 5 --country 'France' --age 6 --sort rate --save /etc/pacman.d/mirrorlist 
+sudo pacman -Syu reflector
+sudo reflector --verbose --latest 5 --country 'France' --age 6 --sort rate --save /etc/pacman.d/mirrorlist 
+yay --devel -Syu
+ping 1.1.1.1
+yay --devel -Syu
+ping -b 1.1.1.1
+yay --devel -Syu
+yay -Rs ags-hyprpanel-git
+yay --devel -Syu
+ping github.com
+nc -vz github.com 443
+brew install netcat
+exit
+whereis app.ts 
+systemctl --user daemon-reload 
+systemctl --user add-wants niri.service bar.service 
+vim .config/systemd/user/xwayland.service 
+yay --devel -Syu
+sudo pacman -Syu
+exit
+sudo pacman -Syu blueman
+sudo reflector --verbose --latest 5 --country 'France' --age 6 --sort rate --save /etc/pacman.d/mirrorlist 
+ping 1.1.1.1
+sudo pacman -S gdb
+exit
+yay --devel -Syu
+curl -v https://aur.archlinux.org
+yay --devel -Syu
+ping 1.1.1.1
+yay --devel -Syu
+sudo pacman -Syu
+exi
+exit
+ags run app.tsx 
+npm update 
+sudo pacman -Syu gjs gtk4 npm
+npm install gnim
+npm info
+npm list
+npm install typescript esbuild @girs/gtk-4.0 @girs/gjs -D
+ags run app.tsx 
+ls /usr/share/ags/js/node_modules/gnim/
+ls /usr/share/ags/js/node_modules/
+yay -Syu --devel
+yay -S aylurs-gtk-shell-git
+exit
+coredumpctl debug
+exit
+vim .config/systemd/user/bar.service
+distrobox enter ags
+cd .config/ags/
+vim widget/Bar.tsx 
+vim app.tsx 
+distrobox enter ags
+vim widget/popovers/pages/Wifi.tsx 
+distrobox enter ags
+vim widget/popovers/Tray.tsx 
+distrobox enter ags
+nc -vz github.com 443
+brew install netcat
+brew update
+brew upgrade
+brew install netcat
+netcat
+nc -vz github.com 443
+distrobox enter ags
+nm-applet --version
+nm-applet --help
+vim .config/niri/config.kdl 
+systemctl status --user bar
+vim .config/systemd/user/bar.service 
+vim .config/systemd/user/niri.service.wants/bar.service 
+systemctl --user daemon-reload 
+systemctl restart --user bar
+systemctl status --user bar
+vim .config/ags/style.scss 
+sudo powertop
+exit
+systemctl status --user bar
+journalctl --user -u bar.service
+powertop
+sudo powertop
+eix
+exit
+echo '1' > '/sys/module/snd_hda_intel/parameters/power_save'
+cat /sys/module/snd_hda_intel/parameters/power_save
+cd
+cd git/niri-bluebuild/
+vim recipes/recipe.yml 
+git pull
+git add .
+git commit -m "Restructure package list, remove blueman and add powertop"
+git push
+rpm-ostree upgrade
+systemctl reboot
+rpm-ostree upgrade
+flatpak update
+brew upgrade
+ujust
+ujust check-idle-power-draw
+sudo powertop
+distrobox enter ags
+toolbox enter
+brew search powertop
+sudo dmesg 
+sudo powertop
+systemctl status  systemd-remount-fs.service
+ping 1.1.1.1
+cd .config/ags/
+ls
+vim widget/popovers/QuickSettings.tsx 
+vim widget/popovers/quicksettings/
+vim widget/Bar.tsx 
+app.tsx 
+exit
+systemctl stop --user bar
+systemctl status --user bar
+distrobox enter ags
+systemctl status --user bar
+systemctl restart --user bar
+cd
+cd .config/ags/
+ags quit -i bar
+ags run app.tsx 
+exit
+flatpak override --user --socket=wayland com.spotify.Client
+notify-send shoe 1000
+notify-send shoe 1000 --help
+notify-send shoe -t 1000
+notify-send shoe -t 5000
+notify-send shoe -t 1000
+notify-send shoe
+cd .config/ags/
+ls
+vim widget/popovers/QuickSettings.tsx 
+vim Notifications/Notification.tsx 
+vim Notifications/NotificationPopups.tsx 
+vim app.tsx 
+vim style.scss 
+vim Notifications/NotificationPopups.tsx 
+rpm-ostree upgrade
+vim style.scss 
+cd
+cd git/niri-bluebuild/
+git push
+vim recipes/recipe.yml 
+ls
+git pull
+git add .
+git commit -m "add neovim"
+git push
+notify-send shoe
+notify-send sh
+notify-send she
+cd .config/ags/
+vim Notifications/NotificationPopups.tsx 
+cd git/niri-bluebuild/
+ls
+git pull
+vim recipes/recipe.yml 
+distrobox enter ags
+cd
+cd .config/ags/
+git add .
+git commit -m "Finished screenshot button"
+git push
+app.tsx 
+git add .
+git commit -m "Implement the notification popup"
+git push
+git pull
+git config pull.rebase true
+git pull
+git push
+vim .gitignore 
+git add.
+git add .
+git commit -m "Fix the gitignore"
+git push
+cd .config/ags/
+git pull
+systemctl --user restart bar
+flatpak search anki
+flatpak install net.ankiweb.Anki
+ping 1.1.1.1
+iptables -L
+sudo iptables -L
+cat /var/log/README 
+journalctl -b 0
+mkvalidator
+brew search mkvalidator
+brew install mkvalidator 
+cd Downloads/
+mkvalidator The.Sound.of.Music.1965.1080p.BluRay.x264.DD+7.1-Pahe.in.mkv 
+brew install mpv
+brew doctor
+neovim
+nvim
+cd git/niri-bluebuild/
+git pull
+rpm-ostree update
+systemctl reboot
+vim .config/niri/config.kdl 
+cd
+ls
+ls --help
+pwd
+vim .config/niri/config.kdl 
+nvim
+mkdir .config/nvim
+nvim .config/nvim/init.lua
+nvim
+cd .config/nvim/
+nvim
+vim .
+nvim .
+git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+nvim .
+rpm-qa nvim*
+rpm -qa nvim*
+nvim .
+nvim --version
+vim .config/nvim/after/plugin/treesitter.lua 
+cd .config/nvim/
+nvim .
+cd .config/nvim/
+nvim .
+nvim ~/.config/ags/
+nvim .
+cd ~/.config/ags/
+nvim 
+cd
+cd .config/nvim/
+nvim .
+brew install luarocks
+npm i -g pyright
+brew install lua-language-server
+cd
+cd git/niri-bluebuild/
+git pull
+nvim recipes/recipe.yml 
+git add .
+git commit -m "bash-ls"
+git push
+brew install jdtls
+java
+java --version
+brew seach jdtl
+brew search jdtls
+ping 1.1.1.1
+vim .config/niri/config.kdl 
+nvim
+uupd
+cd git/niri-bluebuild/
+nvim recipes/recipe.yml 
+bluebuild --help
+bluebuild validate recipes/recipe.yml 
+git add .
+git commit -m "remove vim and start adding auto-updates with uupd"
+git push
+git pull
+git push
+rpm-ostree upgrade
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:39177 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin ex2 
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin App 
+ cd /home/nicolas/git/VSCodium/TP1/TP1 ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin App 
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin ex2 
+ cd /home/nicolas/git/VSCodium/TP1/TP1 ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin ex2 
+flatpak update
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin ex2 
+exit
+whereis nvim
+brew search vscodium
+brew install nvim
+whereis nvim
+flatpak override --user --filesystem=/usr/bin/nvim \
+flatpak list
+flatpak override --user --filesystem=/usr/bin/nvim com.vscodium.codium
+distrobox enter ags
+ping 1.1.1.1
+flatpak list
+flatoaj remove com.valvesoftware.Stean
+flatoak remove com.valvesoftware.Steam
+flatpak remove com.valvesoftware.Steam
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin ex2 
+ cd /home/nicolas/git/VSCodium/TP1/TP1 ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/TP1/TP1/bin ex2 
+ping 1.1.1.1
+ping 1.1.1
+ping 1.1.1.1
+exit
+journalctl -b 0
+ping 1.1.1.1
+systemctl restart --user bar
+systemctl stop --user bar
+distrobox enter ags
+app.tsx 
+ping 1.1.1.1
+app.tsx 
+systemctl --user start bar
+sudo journalctl -u NetworkManager -f
+ping 1.1.1.1
+sudo iptables -L -v -n
+sudo nft list ruleset
+sudo firewall-cmd --list-all
+ping -V
+ls -l $(which ping)
+getcap $(which ping)
+nmcli dev wifi list | grep home
+cd .config/ags/
+ls
+vim widget/popovers/pages/Wifi.tsx 
+ping 1.1.1.1
+ip route
+ip addr
+ping 1.1.1.1
+ip addr
+ip route
+ping 1.1.1.1
+ip addr
+ip route
+ip addr
+watch -n1 ip route
+vi
+nvim .bashrc 
+nvim .bash_profile 
+nvim .bash_logout 
+rpm -qa nano
+rpm -qa vim
+whereis vim
+rpm -qa vim*
+vim-enhanced
+cd git/niri-bluebuild/
+vim recipes/recipe.yml 
+git pull
+vim recipes/recipe.yml 
+git add .
+git commit -m "Correct vim package name this time?"
+git push
+rpm-ostree update
+cd
+nvim .bashrc 
+vim
+vim .
+cd .config/ags/
+git add .
+git commit -m "General network module fixes"
+got push
+git push
+npm
+niri --version
+rpm-ostree update
+systemctl status --user xwayland
+systemctl disable --user xwayland
+vim .config/niri/config.kdl 
+cd git/niri-bluebuild/
+vim recipes/recipe.yml 
+waybar 
+vim recipes/recipe.yml 
+git add .
+git commit -m "switch discord client"
+git push
+rpm-ostree update
+rpm-ostree upgrade
+flatpak update
+rpm-ostree update
+vim .config/hypr/hypridle.conf 
+hyprlock
+systemctl status sddm
+reboot
+vim .config/hypr/hypridle.conf 
+loginctl lock-session 
+systemctl status --user hypridle.service 
+vim
+rpm-ostree update
+vim .config/ags/app.tsx 
+gsettings set org.gnome.desktop.interface icon-theme Flat-Remix-Green-Dark
+gsettings get org.gnome.desktop.interface icon-theme Flat-Remix-Green-Dark
+gsettings get org.gnome.desktop.interface icon-theme
+exit
+ags quit 
+ags quit -i
+ags quit -i bar
+app.tsx 
+exit
+systemctl --user restart bar
+systemctl --user stop bar
+distrobox enter ags
+systemctl --user restart bar
+distrobox enter ags
+app.tsx 
+systemctl --user restart bar
+vim .config/ags/app.tsx 
+vim .config/ags/widget/popovers/quicksettings/QuickToggles.tsx 
+vim .config/ags/widget/popovers/quicksettings/Sliders.tsx 
+vim .config/ags/style.scss 
+vim .config/ags/widget/popovers/Tray.tsx 
+nvim .config/niri/config.kdl 
+notify-send shoe
+vim .config/ags/widget/popovers/quicksettings/Sliders.tsx 
+flatpak run app.ytmdesktop.ytmdesktop 
+xeyes
+top
+exit
+ags quit bar
+ags quit -i bar
+exit
+systemctl status --user bar
+journalctl -u bar
+journalctl -u bar.service
+journalctl -h
+journalctl --user-unit=bar.service
+distrobox enter ags
+systemctl stop --user bar.service
+distrobox enter ags
+systemctl start --user bar.service
+vim /etc/keyd/default.conf 
+sudo vim /etc/keyd/default.conf 
+sudo nvim /etc/keyd/default.conf 
+sudo keyd reload
+sudo nvim /etc/keyd/default.conf 
+vim .config/niri/config.kdl 
+sudo nvim /etc/keyd/default.conf 
+vim .config/niri/config.kdl 
+sudo dnf install gpick2
+sudo dnf install gpick
+gpick
+exit
+brew search color
+grabc
+brew install gpick
+brew update
+brew search picker
+toolbox enter
+vim .config/ags/widget/SystemStatus.tsx 
+vim .config/ags/style.scss 
+distrobox list
+distrobox -h
+distrobox rm waybar
+distrobox rm Arch my-distrobox
+neofetch
+fastfetch
+distrobox enter ags
+exit
+systemctl restart --user bar
+mkdir -p ~/.config/alacritty/themes
+git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+vim .config/alacritty/alacritty.toml
+vim .config/niri/config.kdl 
+rpm-ostree update
+journalctl --user-unit=bar.service
+distrobox enter ags
+systemctl restart --user bar
+vim .config/ags/style.scss 
+distrobox enter ags
+exit
+systemctl restart --user bar
+cd git/
+git clone https://github.com/sderrien/logisim-evolution.git
+ant
+brew install ant
+cd logisim-evolution/
+ant run
+cat build.
+cat build.xml 
+vim build.
+vim build.xml 
+mv build.xml build.xml.bak
+ks
+ls
+vim build.xml
+ant run
+zip -d logisim-evolution.jar 'META-INF/*.SF' 'META-INF/*.RSA' 'META-INF/*SF'
+java -jar logisim-evolution.jar 
+cd
+cd Downloads/
+java -jar logisim-evolution(2).jar
+rm logisim-evolution.jar 
+rm logisim-evolution\(2\).jar 
+java -jar logisim-evolution\(1\).jar 
+distrobox enter ags
+systemctl restart --user bar
+app.tsx 
+distrobox enter ags
+app.tsx 
+systemctl restart --user bar
+vim .config/ags/widget/popovers/quicksettings/QuickToggles.tsx 
+vim .config/ags/widget/popovers/quicksettings/Topbutton.tsx 
+vim .config/ags/widget/popovers/quicksettings/Sliders.tsx 
+vim .config/ags/widget/SystemStatus.tsx 
+cupsctl -h
+lpr /usr/share/cups/data/testprint
+lp /usr/share/cups/data/testprint
+lp 
+lpstat -p -d
+lpoptions -d Brother_HL_L2350DW_series
+lp /usr/share/cups/data/testprint
+rpm-ostree status
+rpm-ostree update
+flatpak update
+ags quit -i bar
+app.tsx 
+exit
+app.tsx 
+exit
+vim .config/ags/widget/popovers/pages/Bluetooth.tsx 
+vim .config/ags/widget/popovers/quicksettings/Sliders.tsx 
+distrobox enter ags
+vim .config/ags/widget/popovers/quicksettings/Sliders.tsx 
+distrobox enter ags
+vim .config/ags/widget/popovers/quicksettings/Sliders.tsx 
+app.tsx 
+sudo dnf install cowsay
+exit
+cowsay
+toolbox enter
+cowsay
+sudo dnf install cowsay
+cowsay hello
+exit
+exiy
+exit
+cowsay
+toolbox enter
+distrobox list
+app.tsx 
+cowsay charles
+cowsay hello charles
+cowsay regarde ton cv charles
+exit
+toolbox enter
+cd git/Shell/widget/popovers/pages/
+vim Bluetooth.tsx 
+app.tsx 
+cd
+cat .config/ags/widget/popovers/pages/Bluetooth.tsx 
+app.tsx 
+systemctl restart --user bar
+cd .config/ags/
+vim widget/popovers/pages/Bluetooth.tsx 
+nvim
+cd .config/ags/
+git add .
+git commit -m "Fix bluetooth widget not checking if device was connected to show battery"
+git push
+systemctl restart sddm
+nmcli 
+ping 1.1.1.1
+nmcli -h
+nmcli device status
+nmcli radio wifi
+nmcli wifi rescan
+nmcli device wifi rescan
+nmcli device wifi list
+nmcli device wifi connect Pixel_9911 password ipxbsjr4976q65d
+nmcli device wifi connect Pixel_9911 password ipxbsjr4976q65d ifname wlp3s0
+nmcli device wifi connect Pixel_9911 password ipxbsjr4976q65d ifname wlo1
+nmcli device wifi connect Pixel_9911 password "ipxbsjr4976q65d" ifname wlo1
+nmcli device wifi connect "Pixel_9911" password "ipxbsjr4976q65d" ifname wlo1
+nmcli connection modify Pixel_9911 wifi-sec.key-mgmt 
+nmcli connection modify Pixel_9911 wifi-sec.key-mgmt wpa-psk
+nmcli device wifi connect "Pixel_9911" password "ipxbsjr4976q65d" ifname wlo1
+nmcli device wifi rescan
+nmcli device wifi connect "Pixel_9911" password "ipxbsjr4976q65d" ifname wlo1
+nmcli device wifi connect "Pixel_9911"
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/.var/app/com.vscodium.codium/config/VSCodium/User/workspaceStorage/d0c415c969503bc9199b7339ef05f405/redhat.java/jdt_ws/src_6fc51513/bin App 
+ cd /home/nicolas/git/VSCodium/PO/TP1_PO/src ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/.var/app/com.vscodium.codium/config/VSCodium/User/workspaceStorage/d0c415c969503bc9199b7339ef05f405/redhat.java/jdt_ws/src_6fc51513/bin App 
+, succ
+ cd /home/nicolas/git/VSCodium/PO/TP1_PO/src ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/.var/app/com.vscodium.codium/config/VSCodium/User/workspaceStorage/d0c415c969503bc9199b7339ef05f405/redhat.java/jdt_ws/src_6fc51513/bin App 
+rpm-ostree upgrade
+systemctl shutdown
+systemctl poweroff
+ip a
+ifconfig
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/.var/app/com.vscodium.codium/config/VSCodium/User/workspaceStorage/d0c415c969503bc9199b7339ef05f405/redhat.java/jdt_ws/src_6fc51513/bin App 
+ping 1.1.1.1
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/.var/app/com.vscodium.codium/config/VSCodium/User/workspaceStorage/d0c415c969503bc9199b7339ef05f405/redhat.java/jdt_ws/src_6fc51513/bin App 
+ cd /home/nicolas/git/VSCodium/PO/TP1_PO/src ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/.var/app/com.vscodium.codium/config/VSCodium/User/workspaceStorage/d0c415c969503bc9199b7339ef05f405/redhat.java/jdt_ws/src_6fc51513/bin App 
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/PO/TP1_PO/bin App 
+ cd /home/nicolas/git/VSCodium/PO/TP1_PO ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/PO/TP1_PO/bin App 
+ /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/PO/TP1_PO/bin App 
+ cd /home/nicolas/git/VSCodium/PO/TP1_PO ; /usr/bin/env /var/home/linuxbrew/.linuxbrew/Cellar/openjdk/24.0.2/libexec/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /var/home/nicolas/git/VSCodium/PO/TP1_PO/bin App 
+rpm-ostree upgrade
+distrobox --help
+distrobox ls
+distrobox enter rocky
+rpm-ostree upgrade
+cd .config/ags/
+vim widget/popovers/pages/Bluetooth.tsx 
+distrobox enter ags
+exit
+systemctl restart --user bar
+app.tsx 
+cd .config/ags/
+vim widget/popovers/pages/Bluetooth.tsx 
+systemctl restart --user bar
+app.tsx 
+vim app.tsx 
+app.tsx 
+vim app.tsx 
+systemctl reboot
+ags run -i bar
+ags -i bar
+cd .config/ags/
+ags run
+waybar
+exit
+ping 1.1.1.1
+app.tsx 
+nmcli
+nmcli con up home
+nmcli --help
+nmcli d
+nmcli d --help
+nmcli wifi
+nmcli d wifi
+nmcli d wlo1
+nmcli d wifi enable
+nmcli --help
+vim .config/ags/app.tsx 
+vim .config/ags/widget/popovers/quicksettings/QuickToggles.tsx 
+vim .config/ags/app.tsx 
+nano .config/ags/app.tsx 
+vim .config/ags/app.tsx 
+cat .config/ags/app.tsx 
+vim .config/ags/app.tsx 
+vim .config/ags/widget/popovers/pages/Bluetooth.tsx 
+app.tsx 
+distrobox enter ags
+waybar
+distrobox enter ags
+cat .config/ags/widget/popovers/quicksettings/QuickToggles.tsx 
+ags run
+app.tsx 
+systemctl --user restart bar
+systemctl --user start bar
+systemctl --user stop bar
+systemctl --user status bar
+systemctl --user start bar
+systemctl --user status bar
+sudo pacman -Syu
+yay --Syu
+yay -Syu
+exit
+distrobox enter ags
+flatpak update
+flatpak remove com.heroicgameslauncher.hgl
+cd .config/ags/
+git add .
+git commit 
+git push
+brightnessctl -s set 1
+ifconfig
+distrobox enter ags
+app.tsx
+cd .config/ags/widget/
+cat popovers/QuickSettings.tsx 
+cat popovers/pages/Power.tsx 
+cat popovers/quicksettings/Topbutton.tsx 
+cd .config/ags
+vim widget/popovers/quicksettings/QuickToggles.tsx 
+vim widget/popovers/quicksettings/Topbutton.tsx 
+git add .
+git commit -m "Initial work to change the page menus"
+git push
+systemctl shutdown
+systemctl poweroff
+brew search gamescope
+cd git/niri-bluebuild/
+git pull
+vim recipes/recipe.yml 
+git add .
+git commit -m "Add gamescope"
+git push
+systemctl --user status bar
+rpm-ostree upgrade
+rpm-ostree cancel
+rpm-ostree upgrade
+systemctl reboot
+gamescope
+cd Downloads/
+ls
+ls | grep log
+java -jar logisim-evolution.jar 
+gamescope "java -jar logism-evolution.jar"
+java -jar logisim-evolution.jar | gamescope
+xeyes
+cd Downloads/
+GDK_BACKEND=X11 java -jar logisim-evolution.jar 
+xeyes
+GDK_BACKEND=X11 java -jar logisim-evolution.jar 
+java -jar logisim-evolution.jar 
+GDK_BACKEND=wayland java -jar logisim-evolution.jar 
+java -jar logisim-evolution.jar 
+AWT_TOOLKIT=SunToolkit GDK_BACKEND=wayland java -jar logisim-evolution.jar 
+gamescope == java -jar logisim-evolution.jar 
+gamescope == "java -jar logisim-evolution.jar"
+gamescope -- xeyes
+gamescope -- java -jar logisim-evolution.jar 
+gamescope --xwayland -- java -jar logisim-evolution.jar 
+gamescope -- java -jar logisim-evolution.jar 
+sudo dnf install labwc
+java --version
+sudo dnf install java
+labwc
+sudo dnf install xwayland
+sudo dnf search xwayland
+sudo dnf install xorg-x11-server-xwayland
+sudo dnf install xorg-x11-server-xwayland.x86_64
+sudo dnf install xorg-x11-server-Xwayland.x86_64
+labwc
+sudo labwc
+labwc
+exit
+labwc
+exit
+brew search labwc
+cd git/niri-bluebuild/
+vim recipes/recipe.yml 
+git add .
+git commit -m "LabWC"
+git push
+toolbox enter
+Xwayland
+env DISPLAY=:1 Xwayland
+pkill xwayland-satellite
+pkill xwayland
+Xwayland
+rm /tmp/.X0-lock 
+toolbox enter
+rm /tmp/.X0-lock 
+Xwayland
+rm /tmp/.X0-lock 
+cd
+vim .config/niri/config.kdl 
+rpm-ostree upgrade
+hostname
+hostname -h
+hostname -d
+ssh ncowley@e008m05.istic.univ-rennes1.fr
+cd Downloads/
+java -jar logisim-evolution.jar 
+Xwayland 
+xeyes
+exit
+pkill Hyprland
+ags quit
+ags run
+exit
+cd Downloads/
+gamescope -- java -jar logisim-evolution.jar 
+toolbox enter
+systemctl --user status bar
+systemctl --user restart bar
+distrobox enter ags
+systemctl --user start bar
+app.tsx 
+rpm-ostree upgrade
+cd git/niri-bluebuild/
+vim recipes/recipe.yml 
+git add .
+git commit -m "Hyprland as optional wm"
+git push
+rpm-ostree upgrade
+rpm-ostree status
+rpm-ostree cancel
+rpm-ostree upgrade
+vim .config/hypr/hyprland.conf 
+hyprlock
+vim .config/hypr/hyprland.conf 
+Hyprland 
+cd 
+cd Downloads/
+java -jar logisim-evolution.jar 
+ping 1.1.1.1
+nmcli
+ping 1.1.1.1
+hostnq;e
+hostaname
+hostname
+hostname -h
+dnsdomainname 
+hostname -d
+ip a
+host
+,tr
+mtr
+ssh ncowley@e008m05.istic.univ-rennes1.fr
+Hyprland 
+cd Downloads/
+java -jar logisim-evolution.jar 
+systemctl reboot
+env DISPLAY=:0 glxgears
+env DISPLAY=:1 glxgears
+env DISPLAY=:1 java -jar ~/Downloads/logisim-evolution.jar 
+labwc
+java -jar ~/Downloads/logisim-evolution.jar 
+java -jar ~/Downloads/logisim-evolution.jar & disown
+ppd
+tuned-ppd
+sudo tuned-ppd
+systemctl restart sddm
+systemctl shutdown
+sudo powertop
+
+java -jar ~/Downloads/logisim-evolution.jar & disown
+upower
+upower -h
+upower -b
+nmcli
+nmcli radio wifi off
+nmcli
+upower -b
+hyprctl -q
+hyprctl 
+hyprctl -h
+hyprctl kill
+pkill Hyprland
+systemctl restart sddm
+chezmoi

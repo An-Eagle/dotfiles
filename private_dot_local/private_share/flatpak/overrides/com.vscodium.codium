@@ -1,0 +1,6 @@
+[Context]
+filesystems=/var/home/linuxbrew/;home;host-etc;host-os
+
+[Environment]
+JAVA_HOME=/usr/lib/sdk/openjdk21
+PATH=/usr/lib/sdk/openjdk21/bin:/app/bin:/usr/bin

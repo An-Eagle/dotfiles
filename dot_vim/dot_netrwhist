@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/var/home/nicolas/.config/nvim'
+let g:netrw_dirhist_2='/var/home/nicolas/.config/nvim/lua'
+let g:netrw_dirhist_1='/var/home/nicolas/.config/nvim/lua/nicolas'
+let g:netrw_dirhist_0='/var/home/nicolas/.config/nvim/lua'
+let g:netrw_dirhist_9='/var/home/nicolas/.config/nvim'
+let g:netrw_dirhist_8='/var/home/nicolas/.config/ags/widget/popovers/quicksettings'
+let g:netrw_dirhist_7='/var/home/nicolas/.config/ags/widget/popovers/pages'
+let g:netrw_dirhist_6='/var/home/nicolas/.config/ags/widget/popovers'
+let g:netrw_dirhist_5='/var/home/nicolas/.config/ags/widget'
+let g:netrw_dirhist_4='/var/home/nicolas/.config/ags/utils/evaluators'
