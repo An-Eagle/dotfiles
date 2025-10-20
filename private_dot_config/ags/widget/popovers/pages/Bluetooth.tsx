@@ -15,11 +15,13 @@ async function BluetoothSettings () {
     }   
 }
 
-export default function BluetoothPage() {
+export default function BluetoothPage({BluetoothView, setBluetoothView}) {
     return (
-    <popover class="bluetoothpage" name="Bluetooth page">
-      <box orientation = {Gtk.Orientation.VERTICAL}>
+      <box class="overlaypage" orientation = {Gtk.Orientation.VERTICAL}>
         <box orientation = {Gtk.Orientation.HORIZONTAL}>
+          <button onClicked={()=>{setBluetoothView(false)}}>
+	    <image iconName="go-previous-symbolic"/>
+	  </button>
 	  <image class="pageicon" iconName="bluetooth-active-symbolic" pixelSize={32}/>
 	  <PageTitle label="Bluetooth"/>
 	</box>
@@ -97,6 +99,5 @@ export default function BluetoothPage() {
 	  </button>
 	</box>
       </box>
-    </popover>
   )
 }

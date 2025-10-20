@@ -16,7 +16,7 @@ export PATH
 
 # User specific aliases and functions
 alias vim="nvim"
-alias update="rpm-ostree upgrade && brew update && flatpak update"
+alias update="rpm-ostree upgrade && brew upgrade && flatpak update"
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
         if [ -f "$rc" ]; then

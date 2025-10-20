@@ -10,7 +10,7 @@ export default function PowerMenu ({PowerMenuView, setPowerMenuView})  {
     <box class ="overlaypage" orientation={Gtk.Orientation.VERTICAL}>
       <box orientation={Gtk.Orientation.HORIZONTAL}>
         <button onClicked={()=>{setPowerMenuView(false)}}>
-	  <label label ="works" visible = {PowerMenuView}/>
+	  <image iconName="go-previous-symbolic"/>
 	</button>
 	<image class="pageicon" iconName="system-shutdown-symbolic" pixelSize={24}/>
 	<PageTitle class="pagetitle" label="Power Off"/>

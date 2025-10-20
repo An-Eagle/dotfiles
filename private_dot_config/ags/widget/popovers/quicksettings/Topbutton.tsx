@@ -30,7 +30,7 @@ export default function TopButton ({ getPopoverRef, PowerMenuView, setPowerMenuV
       >
 	<image class="topicon" iconName="changes-prevent-symbolic" pixelSize={16} />
       </button>
-      <button class="topmenu" halign={Gtk.Align.END} onClicked={()=> {
+      <button class="topbutton" halign={Gtk.Align.END} onClicked={()=> {
         setPowerMenuView(true) 
       }}>
 	<image class="topicon" iconName="system-shutdown-symbolic" pixelSize={24}/>

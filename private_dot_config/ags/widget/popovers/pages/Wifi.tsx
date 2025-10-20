@@ -7,9 +7,15 @@ import { PageTitle } from "../../defaults/Style"
 const network = Network.get_default()
 
 
-function ConnectAP () {
-}
-function ScanAP () {
+async function ConnectAP (ap: Network.AccessPoint) {
+    // connecting to ap is not yet supported
+    // https://github.com/Aylur/astal/pull/13
+    try {
+      await execAsync(`nmcli d wifi connect ${ap.bssid}`)
+    } catch (error) {
+      // you can implement a popup asking for password here
+      console.error(error)
+    }
 }
 async function NetSettings () {
     try {
@@ -19,7 +25,7 @@ async function NetSettings () {
     }
 }
 
-export default function Wifi() {
+export default function Wifi({WifiView, setWifiView}) {
 
   const wifi = createBinding(network, "wifi")
   
@@ -38,9 +44,11 @@ export default function Wifi() {
   };
   
   return (	
-    <popover class="wifipage">
-      <box orientation={Gtk.Orientation.VERTICAL}>
+      <box class="overlaypage" orientation={Gtk.Orientation.VERTICAL}>
         <box orientation={Gtk.Orientation.HORIZONTAL}>
+          <button onClicked={()=>{setWifiView(false)}}>
+	    <image iconName="go-previous-symbolic"/>
+	  </button>
 	  <image class="pageicon" iconName="network-wireless-signal-excellent-symbolic" pixelSize={32}/>
 	  <PageTitle label="Wifi"/>
 	  <box hexpand={true}/>
@@ -72,6 +80,7 @@ export default function Wifi() {
 		        <button 
 			  class="pagebutton"
 			  onClicked={() => {
+		            ConnectAP(ap)
                         }}>
 			  <box spacing={4} hexpand={true}>
 			    <image iconName={createBinding(ap, "iconName")} />
@@ -108,7 +117,6 @@ export default function Wifi() {
 	  </button>
 	</box>
       </box>
-    </popover>
   )
 }
 
