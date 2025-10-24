@@ -71,33 +71,35 @@ export default function Wifi({WifiView, setWifiView}) {
 		visible = {createBinding(network.wifi, "scanning")}>
 		  <label label="Scanning..."/>
 		</box>
-                <box
-                visible = {createBinding(network.wifi, "scanning").as(scanning => !scanning)}
-		orientation={Gtk.Orientation.VERTICAL}>
-                  <For each={createBinding(wifi, "accessPoints")(sorted)}>
-                    {(ap: Network.AccessPoint) => {
-                      return (
-		        <button 
-			  class="pagebutton"
-			  onClicked={() => {
-		            ConnectAP(ap)
-                        }}>
-			  <box spacing={4} hexpand={true}>
-			    <image iconName={createBinding(ap, "iconName")} />
-			    <label label={createBinding(ap, "ssid")} />
-			    <image
-			    iconName="object-select-symbolic"
-			    visible={createBinding(
-			      wifi,
-			      "activeAccessPoint",
-			    )((active) => active === ap)}
-			    />
-			  </box>
-			</button>
-		      )}
-                    }
-                  </For>
-                </box>
+		<scrolledwindow>
+		  <box
+		  visible = {createBinding(network.wifi, "scanning").as(scanning => !scanning)}
+		  orientation={Gtk.Orientation.VERTICAL}>
+		    <For each={createBinding(wifi, "accessPoints")(sorted)}>
+		      {(ap: Network.AccessPoint) => {
+			return (
+			  <button 
+			    class="pagebutton"
+			    onClicked={() => {
+			      ConnectAP(ap)
+			  }}>
+			    <box spacing={4} hexpand={true}>
+			      <image iconName={createBinding(ap, "iconName")} />
+			      <label label={createBinding(ap, "ssid")} />
+			      <image
+			      iconName="object-select-symbolic"
+			      visible={createBinding(
+				wifi,
+				"activeAccessPoint",
+			      )((active) => active === ap)}
+			      />
+			    </box>
+			  </button>
+			)}
+		      }
+		    </For>
+		  </box>
+		</scrolledwindow>
 		</box>
               )
             }
