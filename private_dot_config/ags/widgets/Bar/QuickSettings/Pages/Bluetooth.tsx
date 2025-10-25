@@ -4,7 +4,7 @@ import { With, Accessor, For, createState, For, createBinding, createComputed } 
 import { Astal, Gtk, Gdk } from "ags/gtk4"
 import Bluetooth from "gi://AstalBluetooth"
 import { execAsync } from "ags/process"
-import { PageTitle } from "../../defaults/Style"
+import { PageTitle } from "../../../Defaults/Style"
 const bluetooth = Bluetooth.get_default()
 
 async function BluetoothSettings () {

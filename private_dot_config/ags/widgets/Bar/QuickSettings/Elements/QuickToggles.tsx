@@ -2,7 +2,7 @@ import app from "ags/gtk4/app"
 import { Astal, Gtk, Gdk } from "ags/gtk4"
 import { With, Accessor, For, createState, For, createBinding } from "ags"
 
-import { QuickToggleTitle, QuickToggleSubtitle, QuickToggleHasMenuTitle, QuickToggleHasMenuSubtitle } from "../../../defaults/Style" 
+import { QuickToggleTitle, QuickToggleSubtitle, QuickToggleHasMenuTitle, QuickToggleHasMenuSubtitle } from "../../../Defaults/Style" 
 
 import Network from "gi://AstalNetwork"
 import Wifipage from "../pages/Wifi"

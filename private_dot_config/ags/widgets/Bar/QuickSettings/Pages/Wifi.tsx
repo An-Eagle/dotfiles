@@ -3,7 +3,7 @@ import { With, Accessor, For, createState, For, createBinding } from "ags"
 import { Astal, Gtk, Gdk } from "ags/gtk4"
 import Network from "gi://AstalNetwork"
 import { execAsync } from "ags/process"
-import { PageTitle } from "../../defaults/Style"
+import { PageTitle } from "../../../Defaults/Style"
 const network = Network.get_default()
 
 

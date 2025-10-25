@@ -3,7 +3,7 @@ import app from "ags/gtk4/app"
 import { With, Accessor, For, createState, For, createBinding } from "ags"
 import { Astal, Gtk, Gdk } from "ags/gtk4"
 import { execAsync } from "ags/process"
-import { PageTitle } from "../../defaults/Style"
+import { PageTitle } from "../../../Defaults/Style"
 
 export default function PowerMenu ({PowerMenuView, setPowerMenuView})  {
   return (

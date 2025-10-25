@@ -1,7 +1,7 @@
 import app from "ags/gtk4/app"
 import { Astal, Gtk, Gdk } from "ags/gtk4"
 import { execAsync } from "ags/process"
-import { With, createState } from "ags"
+import { With, createState, onCleanup } from "ags"
 import GObject, { register, property } from "ags/gobject"
 
 import Sliders from "./Elements/Sliders"
