@@ -2,8 +2,8 @@ import app from "ags/gtk4/app"
 import { Astal, Gtk, Gdk } from "ags/gtk4"
 import { execAsync } from "ags/process"
 
-import { PageTitle } from "../../defaults/Style"
-import PowerMenu from "../pages/Power"
+import { PageTitle } from "../../../defaults/Style"
+import PowerMenu from "../Pages/Power"
 
 export default function TopButton ({ getPopoverRef, PowerMenuView, setPowerMenuView }) {
   return (

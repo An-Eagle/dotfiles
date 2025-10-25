@@ -5,9 +5,9 @@ import { Astal, Gtk, Gdk } from "ags/gtk4"
 import { execAsync } from "ags/process"
 import { createPoll } from "ags/time"
 
-import SystemStatus from "./SystemStatus.tsx"
-import QuickSettings from "./popovers/QuickSettings.tsx"
-import Tray from "./popovers/Tray.tsx"
+import SystemStatus from "./QuickSettings/SystemStatus"
+import QuickSettings from "./QuickSettings/QuickSettings"
+import Tray from "./Tray/Tray"
 
 export default function Bar({ gdkmonitor }: { gdkmonitor: Gdk.Monitor }) { 
   let win: Astal.Window

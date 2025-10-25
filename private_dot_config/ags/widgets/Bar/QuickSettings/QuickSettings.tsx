@@ -4,14 +4,14 @@ import { execAsync } from "ags/process"
 import { With, createState } from "ags"
 import GObject, { register, property } from "ags/gobject"
 
-import Sliders from "./quicksettings/Sliders"
-import QuickToggles from "./quicksettings/QuickToggles"
-import TopButton from "./quicksettings/Topbutton"
-import Notifications from "./quicksettings/Notifications"
+import Sliders from "./Elements/Sliders"
+import QuickToggles from "./Elements/QuickToggles"
+import TopButton from "./Elements/Topbutton"
+import Notifications from "./Elements/Notifications"
 
-import PowerPage from "./pages/Power"
-import WifiPage from "./pages/Wifi"
-import BluetoothPage from "./pages/Bluetooth"
+import PowerPage from "./Pages/Power"
+import WifiPage from "./Pages/Wifi"
+import BluetoothPage from "./Pages/Bluetooth"
 
 export default function QuickSettings() {
   const [OverlayView, setOverlayView] = createState(false)
@@ -19,6 +19,11 @@ export default function QuickSettings() {
   const [WifiView, setWifiView] = createState(false)
   const [BluetoothView, setBluetoothView] = createState(false)
   let popoverRef: Gtk.Popover;
+  onCleanup(() => {
+    setPowerMenuView(false)
+    setWifiView(false)
+    setBluetoothView(false)
+  })
   return (
     <popover $={(p) => (popoverRef = p)} name="quicksettings" class="quicksettings">
       <overlay>
