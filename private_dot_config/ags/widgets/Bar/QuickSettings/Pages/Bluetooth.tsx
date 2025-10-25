@@ -5,6 +5,8 @@ import { Astal, Gtk, Gdk } from "ags/gtk4"
 import Bluetooth from "gi://AstalBluetooth"
 import { execAsync } from "ags/process"
 import { PageTitle } from "../../../Defaults/Style"
+import Page from "../../../Generics/Page"
+
 const bluetooth = Bluetooth.get_default()
 
 async function BluetoothSettings () {
@@ -17,19 +19,12 @@ async function BluetoothSettings () {
 
 export default function BluetoothPage({BluetoothView, setBluetoothView}) {
     return (
-      <box class="overlaypage" orientation = {Gtk.Orientation.VERTICAL}>
-        <box orientation = {Gtk.Orientation.HORIZONTAL}>
-          <button onClicked={()=>{setBluetoothView(false)}}>
-	    <image iconName="go-previous-symbolic"/>
-	  </button>
-	  <image class="pageicon" iconName="bluetooth-active-symbolic" pixelSize={32}/>
-	  <PageTitle label="Bluetooth"/>
-	</box>
+      <Page PageView={BluetoothView} setPageView={setBluetoothView} icon={"bluetooth-active-symbolic"} label={"Bluetooth"} finaloption={BluetoothSettings} finaloptionlabel={"Bluetooth Settings"}>
 	<box visible ={createBinding(bluetooth, "isPowered").as((p)=> (!p))}>
 	  <label label="Bluetooth Disabled" />
 	</box>
 	<scrolledwindow>
-	  <box visible={createBinding(bluetooth, "isPowered")} class="pagebuttonbox" orientation = {Gtk.Orientation.VERTICAL}>
+	  <box visible={createBinding(bluetooth, "isPowered")} class="pagebuttonbox" orientation = {Gtk.Orientation.VERTICAL} vexpand={true}>
 	    <For each={createBinding(Bluetooth.get_default(), "devices")}>
 	       {(dev: Bluetooth.Device) => {
 		 return (
@@ -87,19 +82,6 @@ export default function BluetoothPage({BluetoothView, setBluetoothView}) {
 	    </For>
 	  </box>
 	</scrolledwindow>
-	<Gtk.Separator class="pageseparator" orientation={Gtk.Orientation.HORIZONTAL}/>
-	<box class="settingsbuttonbox">
-	  <button
-	    class="pagebutton"
-	    hexpand={true}
-	    onClicked = {() => <BluetoothSettings/>}
-	  >
-	    <label
-	      halign={Gtk.Align.START}
-	      label="Bluetooth settings"
-	    />
-	  </button>
-	</box>
-      </box>
+      </Page>
   )
 }

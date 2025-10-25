@@ -24,9 +24,13 @@ export default function TopButton ({ getPopoverRef, PowerMenuView, setPowerMenuV
       <button
 	halign={Gtk.Align.END}
 	class = "topbutton"
-	onClicked= { async () => 
+	onClicked= { async () => {
+          const popover = getPopoverRef();
+          if (popover) {
+            popover.popdown();
+          }
 	  execAsync(`distrobox-host-exec hyprlock`)
-	}
+	}}
       >
 	<image class="topicon" iconName="changes-prevent-symbolic" pixelSize={16} />
       </button>

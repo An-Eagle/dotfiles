@@ -12,7 +12,7 @@ import Notifications from "./Elements/Notifications"
 import PowerPage from "./Pages/Power"
 import WifiPage from "./Pages/Wifi"
 import BluetoothPage from "./Pages/Bluetooth"
-
+import GenericPage from "../../Generics/Page"
 export default function QuickSettings() {
   const [OverlayView, setOverlayView] = createState(false)
   const [PowerMenuView, setPowerMenuView] = createState(false)
@@ -25,7 +25,16 @@ export default function QuickSettings() {
     setBluetoothView(false)
   })
   return (
-    <popover $={(p) => (popoverRef = p)} name="quicksettings" class="quicksettings">
+    <popover 
+      $={(p) => (popoverRef = p)} 
+      onHide={(self) => {
+        setPowerMenuView(false)
+        setWifiView(false)
+        setBluetoothView(false)
+      }} 
+      name="quicksettings" 
+      class="quicksettings"
+    >
       <overlay>
         <box orientation={Gtk.Orientation.VERTICAL} >
 	  <TopButton getPopoverRef={() => popoverRef} PowerMenuView={PowerMenuView} setPowerMenuView={setPowerMenuView} />
@@ -41,6 +50,11 @@ export default function QuickSettings() {
 	</box>
 	<box $type="overlay" visible = {BluetoothView}>
 	  <BluetoothPage BluetoothView={BluetoothView} setBluetoothView={setBluetoothView}/>
+	</box>
+	<box $type="overlay" visible ={false}>
+	  <GenericPage>
+	    <label/>
+	  </GenericPage>
 	</box>
       </overlay>
     </popover>
