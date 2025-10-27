@@ -6,12 +6,13 @@ import { PageTitle } from "../../../defaults/Style"
 import PowerMenu from "../Pages/Power"
 
 export default function TopButton ({ getPopoverRef, PowerMenuView, setPowerMenuView }) {
-  return (
+
+return (
    <box class="topbox" orientation={Gtk.Orientation.HORIZONTAL}>
       <button 
 	class = "topbutton"
 	onClicked= { () => {
-          const popover = getPopoverRef();
+	  const popover = getPopoverRef();
           if (popover) {
             popover.popdown();
           }
@@ -24,8 +25,8 @@ export default function TopButton ({ getPopoverRef, PowerMenuView, setPowerMenuV
       <button
 	halign={Gtk.Align.END}
 	class = "topbutton"
-	onClicked= { async () => {
-          const popover = getPopoverRef();
+	onClicked= { () => {
+	  const popover = getPopoverRef();
           if (popover) {
             popover.popdown();
           }

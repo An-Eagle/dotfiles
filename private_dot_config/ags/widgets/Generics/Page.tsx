@@ -26,7 +26,7 @@ export default function Page({
   Refresh,
   children,
 }: PageProps) {
-  return (	
+  return (
       <box class="overlaypage" orientation={Gtk.Orientation.VERTICAL}>
         <box orientation={Gtk.Orientation.HORIZONTAL}>
           <button onClicked={()=>{setPageView(false)}}>

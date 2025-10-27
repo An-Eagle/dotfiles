@@ -12,18 +12,12 @@ import Notifications from "./Elements/Notifications"
 import PowerPage from "./Pages/Power"
 import WifiPage from "./Pages/Wifi"
 import BluetoothPage from "./Pages/Bluetooth"
-import GenericPage from "../../Generics/Page"
 export default function QuickSettings() {
   const [OverlayView, setOverlayView] = createState(false)
   const [PowerMenuView, setPowerMenuView] = createState(false)
   const [WifiView, setWifiView] = createState(false)
   const [BluetoothView, setBluetoothView] = createState(false)
   let popoverRef: Gtk.Popover;
-  onCleanup(() => {
-    setPowerMenuView(false)
-    setWifiView(false)
-    setBluetoothView(false)
-  })
   return (
     <popover 
       $={(p) => (popoverRef = p)} 
@@ -43,18 +37,13 @@ export default function QuickSettings() {
 	  <Notifications OverlayView={OverlayView} setOverlayView={setOverlayView} />
       	</box>
 	<box $type="overlay" visible = {PowerMenuView}>
-	  <PowerPage PowerMenuView={PowerMenuView} setPowerMenuView={setPowerMenuView}/>
+	  <PowerPage PowerMenuView={PowerMenuView} setPowerMenuView={setPowerMenuView} getPopoverRef={() => popoverRef} />
 	</box>
 	<box $type="overlay" visible = {WifiView}>
 	  <WifiPage WifiView={WifiView} setWifiView={setWifiView}/>
 	</box>
-	<box $type="overlay" visible = {BluetoothView}>
+        <box $type="overlay" visible = {BluetoothView}>
 	  <BluetoothPage BluetoothView={BluetoothView} setBluetoothView={setBluetoothView}/>
-	</box>
-	<box $type="overlay" visible ={false}>
-	  <GenericPage>
-	    <label/>
-	  </GenericPage>
 	</box>
       </overlay>
     </popover>
