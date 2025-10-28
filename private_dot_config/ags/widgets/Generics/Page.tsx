@@ -1,7 +1,4 @@
-import app from "ags/gtk4/app"
-import { With, Accessor, For, createState, For, createBinding } from "ags"
-import { Astal, Gtk, Gdk } from "ags/gtk4"
-import { execAsync } from "ags/process"
+import Gtk from "gi://Gtk?version=4.0"
 import { PageTitle } from "../Defaults/Style"
 
 interface GenericPageProps {

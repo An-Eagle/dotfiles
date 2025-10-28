@@ -1,8 +1,10 @@
 import GLib from "gi://GLib"
+import Gtk from "gi://Gtk?version=4.0"
+import Gdk from "gi://Gdk?version=4.0"
+
 import app from "ags/gtk4/app"
-import { For, createBinding, onCleanup } from "ags"
-import { Astal, Gtk, Gdk } from "ags/gtk4"
-import { execAsync } from "ags/process"
+import { onCleanup } from "ags"
+import { Astal } from "ags/gtk4"
 import { createPoll } from "ags/time"
 
 import SystemStatus from "./QuickSettings/SystemStatus"
