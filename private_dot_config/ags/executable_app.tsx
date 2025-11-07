@@ -1,11 +1,10 @@
 #!/usr/bin/env -S ags run
 import app from "ags/gtk4/app"
 import { createBinding, For, This } from "ags"
-
 import style from "./style.scss"
 import Bar from "./widgets/Bar/Bar"
 import NotificationPopups from "./widgets/Notifications/NotificationPopups"
-
+import OSD from "./widgets/OSD/OSD"
 app.start({
   css: style,
   icons: "icons/",
@@ -19,6 +18,7 @@ app.start({
           <This this={app}>
             <Bar gdkmonitor={monitor} />
             <NotificationPopups gdkmonitor={monitor}/>
+            <OSD/>
           </This>
         )}
       </For>
