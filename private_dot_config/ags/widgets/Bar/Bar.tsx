@@ -1,15 +1,13 @@
 import GLib from "gi://GLib"
 import Gtk from "gi://Gtk?version=4.0"
-import Gdk from "gi://Gdk?version=4.0"
-
 import app from "ags/gtk4/app"
 import { onCleanup } from "ags"
-import { Astal } from "ags/gtk4"
+import { Astal, Gdk } from "ags/gtk4"
 import { createPoll } from "ags/time"
 
-import SystemStatus from "./QuickSettings/SystemStatus"
-import QuickSettings from "./QuickSettings/QuickSettings"
-import Tray from "./Tray/Tray"
+import SystemStatus from "./SystemStatus.tsx"
+import QuickSettings from "./popovers/QuickSettings.tsx"
+import Tray from "./popovers/Tray.tsx"
 
 export default function Bar({ gdkmonitor }: { gdkmonitor: Gdk.Monitor }) { 
   let win: Astal.Window
@@ -25,14 +23,15 @@ export default function Bar({ gdkmonitor }: { gdkmonitor: Gdk.Monitor }) {
   })
   return (
     <window
+      layer={Astal.Layer.OVERLAY}
       $={(self) => (win = self)}
-      namespace="my-bar"
+      namespace="bar"
       name={`bar-${gdkmonitor.connector}`}
       class="Bar"
       visible
       gdkmonitor={gdkmonitor}
-      exclusivity={Astal.Exclusivity.EXCLUSIVE}
-      anchor={TOP | LEFT | RIGHT}
+      //exclusivity={Astal.Exclusivity.EXCLUSIVE}
+      //anchor={TOP | LEFT | RIGHT}
       application={app}
     >
       <centerbox cssName="centerbox">

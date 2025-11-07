@@ -43,10 +43,12 @@ function BTDevice (dev: Bluetooth.Device){
 		  <image halign={Gtk.Align.START} iconName={createBinding(dev, "icon")} />
 		  <label
 			halign={Gtk.Align.START}
+			xalign={0}
 			label={createBinding(dev, "alias")}
 			ellipsize={Pango.EllipsizeMode.END}
+			width_request={256}
 		  />
-		  <box hexpand={true} />
+		  <box hexpand={true} width_request={64} />
 		  <label halign={Gtk.Align.END} visible={batteryVisible} label={batteryLabel} />
 		  <label
 			class="minorbutton"
@@ -69,8 +71,8 @@ function BTDevice (dev: Bluetooth.Device){
 export default function BluetoothPage({ BluetoothView, setBluetoothView }) {
 	return (
 		<Page PageView={BluetoothView} setPageView={setBluetoothView} icon={"bluetooth-active-symbolic"} label={"Bluetooth"} finaloption={BluetoothSettings} finaloptionlabel={"Bluetooth Settings"}>
-			<box visible={createBinding(bluetooth, "isPowered").as((p) => (!p))}>
-				<label label="Bluetooth Disabled" />
+			<box halign={Gtk.Align.CENTER} visible={createBinding(bluetooth, "isPowered").as((p) => (!p))} hexpand>
+				<label class="pagetitle" label="Bluetooth Disabled" />
 			</box>
 			<scrolledwindow>
 				<box visible={createBinding(bluetooth, "isPowered")} class="pagebuttonbox" orientation={Gtk.Orientation.VERTICAL} vexpand={true}>
